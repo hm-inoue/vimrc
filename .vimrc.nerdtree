@@ -1,0 +1,2 @@
+"NerdTree設定
+nmap <F9> :NERDTreeToggle

@@ -1,0 +1,20 @@
+filetype off
+
+set rtp+=~/.vim/vundle.git/
+call vundle#rc()
+Bundle 'Shougo/neocomplcache'
+Bundle 'Shougo/unite.vim'
+Bundle 'thinca/vim-ref'
+Bundle 'thinca/vim-quickrun'
+Bundle 'basyura/TweetVim'
+Bundle 'mattn/webapi-vim'
+Bundle 'basyura/twibill.vim'
+Bundle 'tyru/open-browser.vim'
+Bundle 'h1mesuke/unite-outline'
+Bundle 'basyura/bitly.vim'
+Bundle 'Shougo/unite.vim'
+Bundle 'scrooloose/nerdtree'
+Bundle 'LeafCage/yankround.vim'
+Bundle 'kien/ctrlp.vim'
+
+filetype plugin indent on "requierd!
