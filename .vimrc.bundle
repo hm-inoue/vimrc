@@ -1,7 +1,8 @@
 filetype off
 
-set rtp+=~/.vim/vundle.git/
+set rtp+=~/.vim/bundle/vundle
 call vundle#rc()
+Bundle 'gmarik/Vundle.vim'
 Bundle 'Shougo/neocomplcache'
 Bundle 'Shougo/unite.vim'
 Bundle 'thinca/vim-ref'
@@ -16,5 +17,8 @@ Bundle 'Shougo/unite.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'LeafCage/yankround.vim'
 Bundle 'kien/ctrlp.vim'
+Bundle 'sgur/vim-operator-openbrowser'
+Bundle 'tyru/open-browser.vim'
+Bundle 'kana/vim-operator-user'
 
 filetype plugin indent on "requierd!
